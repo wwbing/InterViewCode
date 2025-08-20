@@ -1,3 +1,0 @@
-/home/wwbing/Code/7_面试常见手撕/build/CMakeFiles/main.out.dir
-/home/wwbing/Code/7_面试常见手撕/build/CMakeFiles/edit_cache.dir
-/home/wwbing/Code/7_面试常见手撕/build/CMakeFiles/rebuild_cache.dir

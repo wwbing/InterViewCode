@@ -1,0 +1,8 @@
+BasedOnStyle:   LLVM
+Language:       Cpp
+IndentWidth: 4
+TabWidth: 4
+ColumnLimit: 0
+BreakBeforeBraces: Linux
+AllowAllArgumentsOnNextLine: true
+UseTab: Never

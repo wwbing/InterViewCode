@@ -1,0 +1,6 @@
+Diagnostics:
+  Suppress:
+    - unused-includes
+    - unused-using-decl  # 添加此项忽略未使用的命名空间别名警告
+    - unused-alias-decls
+    - misc-unused-alias-decls  # 忽略未使用的命名空间别名声明警告

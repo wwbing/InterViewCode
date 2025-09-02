@@ -2,6 +2,7 @@
 #include <mutex>
 #include <thread>
 #include <vector>
+using namespace std;
 
 // 手撕单例模式实现
 
@@ -213,8 +214,16 @@ void test_singleton()
 
     std::cout << "=== 单例模式测试结束 ===" << std::endl;
 }
+struct alignas(32) data0 {
+        int a = 1;
+        double b = 2.0;
+};
 
-int main() {
-    test_singleton();
+int main()
+{
+    cout << sizeof(int) << endl;
+    cout << sizeof(double) << endl;
+    cout<<alignof(data0)<<endl;
+    cout<<sizeof(data0)<<endl;
     return 0;
 } 
